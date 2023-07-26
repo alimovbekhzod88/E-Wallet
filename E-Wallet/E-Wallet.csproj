@@ -11,4 +11,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\E-Wallet.BizlogicLayer\E-Wallet.BizlogicLayer.csproj" />
+    <ProjectReference Include="..\E-Wallet.DataAccessLayer\E-Wallet.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\E-Wallet.DataRepositoryLayer\E-Wallet.DataRepositoryLayer.csproj" />
+  </ItemGroup>
+
 </Project>
