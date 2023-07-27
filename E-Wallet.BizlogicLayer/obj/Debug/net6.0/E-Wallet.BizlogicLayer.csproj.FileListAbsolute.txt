@@ -1,5 +1,0 @@
-/Users/bekhzod/Documents/WEBASE/E-Wallet/E-Wallet.BizlogicLayer/obj/Debug/net6.0/E-Wallet.BizlogicLayer.csproj.AssemblyReference.cache
-/Users/bekhzod/Documents/WEBASE/E-Wallet/E-Wallet.BizlogicLayer/obj/Debug/net6.0/E-Wallet.BizlogicLayer.GeneratedMSBuildEditorConfig.editorconfig
-/Users/bekhzod/Documents/WEBASE/E-Wallet/E-Wallet.BizlogicLayer/obj/Debug/net6.0/E-Wallet.BizlogicLayer.AssemblyInfoInputs.cache
-/Users/bekhzod/Documents/WEBASE/E-Wallet/E-Wallet.BizlogicLayer/obj/Debug/net6.0/E-Wallet.BizlogicLayer.AssemblyInfo.cs
-/Users/bekhzod/Documents/WEBASE/E-Wallet/E-Wallet.BizlogicLayer/obj/Debug/net6.0/E-Wallet.BizlogicLayer.csproj.CoreCompileInputs.cache
