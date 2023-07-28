@@ -1,4 +1,6 @@
+using E_Wallet.DataAccessLayer.EfCode;
 using E_Wallet.WebApi;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +12,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddSwaggerGen();
+builder.Services.AddDbContext<EfCoreContext>(options => options.UseNpgsql(AppSettings.Instance.Database.PgSql.ConnectionString));
 
 var app = builder.Build();
 

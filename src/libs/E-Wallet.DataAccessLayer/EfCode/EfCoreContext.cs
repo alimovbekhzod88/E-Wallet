@@ -1,11 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace E_Wallet.DataAccessLayer
+namespace E_Wallet.DataAccessLayer.EfClasses
 {
-    public class PgSqlContext : DbContext
+    public class EfCoreContext : DbContext
     {
-        public PgSqlContext(DbContextOptions<PgSqlContext> options)
-            :base(options)
+        public EfCoreContext(DbContextOptions<EfCoreContext> options)
+            : base(options)
         {
         }
 
