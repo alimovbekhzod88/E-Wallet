@@ -1,10 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace E_Wallet.DataAccessLayer.EfClasses
+namespace E_Wallet.DataLayer.Repository
 {
     [Table("enum_state")]
-    public partial class State
+    public class State
     {
         public State()
         {

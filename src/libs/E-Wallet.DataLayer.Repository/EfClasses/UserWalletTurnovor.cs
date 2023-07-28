@@ -1,11 +1,11 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace E_Wallet.DataAccessLayer.EfClasses
+namespace E_Wallet.DataLayer.Repository
 {
     [Keyless]
     [Table("sys_user_wallet_turnovor")]
-    public partial class SysUserWalletTurnovor
+    public class SysUserWalletTurnovor
     {
         [Column("id")]
         public long Id { get; set; }

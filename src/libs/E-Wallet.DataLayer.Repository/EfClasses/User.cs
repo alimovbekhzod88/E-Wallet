@@ -2,14 +2,15 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Global.shared;
 using Microsoft.EntityFrameworkCore;
 
-namespace E_Wallet.DataAccessLayer.EfClasses
+namespace E_Wallet.DataLayer.Repository
 {
     [Table("sys_user")]
     [Index("StateId", Name = "sys_user_index__state_id")]
     [Index("FirstName", Name = "sys_user_index_first_name", IsUnique = true)]
-    public partial class User
+    public class User : IHaveStateId
     {
         public User()
         {

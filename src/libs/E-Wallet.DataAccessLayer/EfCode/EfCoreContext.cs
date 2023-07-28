@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace E_Wallet.DataAccessLayer.EfClasses
+namespace E_Wallet.DataAccessLayer.EfCode
 {
     public class EfCoreContext : DbContext
     {
