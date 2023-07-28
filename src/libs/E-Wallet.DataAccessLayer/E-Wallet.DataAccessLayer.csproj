@@ -13,6 +13,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<PackageReference Include="EfCore.GenericServices" Version="5.2.1" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.20" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.20">
 		  <PrivateAssets>all</PrivateAssets>

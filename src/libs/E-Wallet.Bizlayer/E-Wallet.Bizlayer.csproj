@@ -6,6 +6,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EfCore.GenericServices" Version="5.2.1" />
+  </ItemGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\E-Wallet.DataLayer.Repository\E-Wallet.DataLayer.Repository.csproj" />
 	</ItemGroup>
