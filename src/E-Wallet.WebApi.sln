@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E-Wallet.WebApi", "E-Wallet.WebApi\E-Wallet.WebApi.csproj", "{5BC07ACA-908D-4817-A2F4-1F3D6DA3FDAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E_Wallet.WebApi", "E-Wallet.WebApi\E_Wallet.WebApi.csproj", "{5BC07ACA-908D-4817-A2F4-1F3D6DA3FDAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Global", "Global\Global.csproj", "{1695A3F6-92C2-4235-81B2-6D82E878E03C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Global", "Global\Global.csproj", "{1695A3F6-92C2-4235-81B2-6D82E878E03C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{615F8994-36C1-462A-9F4E-FB2A8427214D}"
 EndProject
@@ -13,11 +13,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shared", "shared", "{565FB6
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libs", "libs", "{176BE2C9-B5BE-4344-82DA-3A543AE260C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-Wallet.DataAccessLayer", "libs\E-Wallet.DataAccessLayer\E-Wallet.DataAccessLayer.csproj", "{BF68B4F2-E42F-42D9-91CC-7F1887986BD5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E_Wallet.DataAccessLayer", "libs\E-Wallet.DataAccessLayer\E_Wallet.DataAccessLayer.csproj", "{BF68B4F2-E42F-42D9-91CC-7F1887986BD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-Wallet.DataLayer.Repository", "libs\E-Wallet.DataLayer.Repository\E-Wallet.DataLayer.Repository.csproj", "{B0D45B0C-683E-4535-BD05-0D6072EFE5CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E_Wallet.DataLayer.Repository", "libs\E-Wallet.DataLayer.Repository\E_Wallet.DataLayer.Repository.csproj", "{B0D45B0C-683E-4535-BD05-0D6072EFE5CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-Wallet.Bizlayer", "libs\E-Wallet.Bizlayer\E-Wallet.Bizlayer.csproj", "{2144AEB5-527D-490A-A63B-1B7D9F877FE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E_Wallet.Bizlayer", "libs\E-Wallet.Bizlayer\E_Wallet.Bizlayer.csproj", "{2144AEB5-527D-490A-A63B-1B7D9F877FE2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

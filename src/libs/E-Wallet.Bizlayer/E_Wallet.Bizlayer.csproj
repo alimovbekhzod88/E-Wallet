@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -10,7 +10,9 @@
   <ItemGroup>
     <PackageReference Include="EfCore.GenericServices" Version="5.2.1" />
   </ItemGroup>
-	<ItemGroup>
-		<ProjectReference Include="..\E-Wallet.DataLayer.Repository\E-Wallet.DataLayer.Repository.csproj" />
-	</ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\E-Wallet.DataAccessLayer\E_Wallet.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\E-Wallet.DataLayer.Repository\E_Wallet.DataLayer.Repository.csproj" />
+  </ItemGroup>
 </Project>

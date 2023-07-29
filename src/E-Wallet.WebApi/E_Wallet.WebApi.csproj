@@ -16,8 +16,8 @@
 	</ItemGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\Global\Global.csproj" />
-		<ProjectReference Include="..\libs\E-Wallet.BizLayer\E-Wallet.BizLayer.csproj" />
-		<ProjectReference Include="..\libs\E-Wallet.DataAccessLayer\E-Wallet.DataAccessLayer.csproj" />
-		<ProjectReference Include="..\libs\E-Wallet.DataLayer.Repository\E-Wallet.DataLayer.Repository.csproj" />
+		<ProjectReference Include="..\libs\E-Wallet.Bizlayer\E_Wallet.Bizlayer.csproj" />
+		<ProjectReference Include="..\libs\E-Wallet.DataAccessLayer\E_Wallet.DataAccessLayer.csproj" />
+		<ProjectReference Include="..\libs\E-Wallet.DataLayer.Repository\E_Wallet.DataLayer.Repository.csproj" />
 	</ItemGroup>
 </Project>

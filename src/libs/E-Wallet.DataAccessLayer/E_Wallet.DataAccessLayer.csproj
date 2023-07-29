@@ -26,8 +26,9 @@
 		<PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.8" />
 		<PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL.Design" Version="1.1.0" />
 	</ItemGroup>
+
 	<ItemGroup>
-		<ProjectReference Include="..\E-Wallet.DataLayer.Repository\E-Wallet.DataLayer.Repository.csproj" />
+	  <ProjectReference Include="..\E-Wallet.DataLayer.Repository\E_Wallet.DataLayer.Repository.csproj" />
 	</ItemGroup>
 
 </Project>
