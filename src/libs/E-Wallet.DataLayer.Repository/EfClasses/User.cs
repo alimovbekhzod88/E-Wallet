@@ -10,7 +10,7 @@ namespace E_Wallet.DataLayer.Repository
     [Table("sys_user")]
     [Index("StateId", Name = "sys_user_index__state_id")]
     [Index("FirstName", Name = "sys_user_index_first_name", IsUnique = true)]
-    public class User : IHaveStateId
+    public class User : IHaveStateId, IHaveIdProp<int>
     {
         public User()
         {
