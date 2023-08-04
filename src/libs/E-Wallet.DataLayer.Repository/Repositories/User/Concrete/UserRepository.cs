@@ -42,9 +42,9 @@ namespace E_Wallet.DataLayer.Repository
             if (entity != null)
                 query = query.Where(user => user.Id != entity.Id);
 
-            if (!string.IsNullOrEmpty(dto.Email) && query.ByEmail(email : dto.Email, 
+            if (!string.IsNullOrEmpty(dto.EmailAddress) && query.ByEmail(email : dto.EmailAddress, 
                     isIncludePassive: true).Any())
-                AddError($"Ползователь с этим Email ({dto.Email}) уже существует.", nameof(dto.Email));
+                AddError($"Ползователь с этим Email ({dto.EmailAddress}) уже существует.", nameof(dto.EmailAddress));
         }
     }
 }

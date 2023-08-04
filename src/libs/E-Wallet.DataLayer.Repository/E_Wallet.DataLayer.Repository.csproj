@@ -8,6 +8,8 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+	  <PackageReference Include="EfCore.GenericServices" Version="5.2.1" />
+	  <PackageReference Include="GenericServices.StatusGeneric" Version="1.2.0" />
 	  <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.20" />
 	</ItemGroup>
 
