@@ -1,10 +1,11 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Global.shared;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace E_Wallet.DataLayer.Repository
 {
     [Table("user_wallet")]
-    public partial class UserWallet
+    public partial class UserWallet : IHaveStateId, IHaveIdProp<int>
     {
         [Key]
         [Column("id")]

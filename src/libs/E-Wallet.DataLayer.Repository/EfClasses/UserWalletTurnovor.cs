@@ -5,7 +5,7 @@ namespace E_Wallet.DataLayer.Repository
 {
     [Keyless]
     [Table("sys_user_wallet_turnovor")]
-    public class SysUserWalletTurnovor
+    public class UserWalletTurnovor
     {
         [Column("id")]
         public long Id { get; set; }
